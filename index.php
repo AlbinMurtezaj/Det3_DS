@@ -1,4 +1,11 @@
-<?php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Faqja Kryesore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <?php
 session_start();
 
 if (isset($_SESSION['username'])) {
@@ -22,3 +29,5 @@ if (isset($_SESSION['username'])) {
   ";
 }
 ?>
+</body>
+</html>
